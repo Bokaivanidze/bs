@@ -44,7 +44,7 @@
     font-size: 20px;
     text-decoration: none;
     white-space: nowrap;
-    padding-top: 4px;
+    
 }
 .logo:hover{
     background-color: rgba(128, 128, 128, 0.445);
@@ -94,9 +94,9 @@
     font-size: 14px;
     color: rgb(149, 149, 149);
 }
-button{
+/* button{
     margin-bottom: 50px;
-}
+} */
 .btnn-1{
     border: solid 2px rgb(140, 27, 129);
     border-radius: 4px;
@@ -146,7 +146,10 @@ button{
 .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
     display: flex;
     flex-wrap: inherit;
-    align-items: stretch;
+    /* align-items: stretch; */
     justify-content: space-between;
 }
-
+.btnnn{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
